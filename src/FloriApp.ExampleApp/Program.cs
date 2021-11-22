@@ -15,7 +15,7 @@ namespace FloriApp.ExampleApp
       Console.WriteLine();
       var client = new FloriAppApiClient(new FloriAppApiOptions()
       {
-        ApiBaseUrl = "https://testflori.app/",
+        ApiBaseUrl = "https://api.testflori.app/",
         ApiKey = "xxx",
       });
 
